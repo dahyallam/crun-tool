@@ -25,18 +25,18 @@
 
 ## ⬇️  Download and Install CRun
 Getting started with **CRun** is easy. Follow the steps below:
-
 1. Download the Latest Release
-  - Click the badge below to open the latest release page:
-  - <a href="https://github.com/dahyallam/crun-tool/releases/latest" target="_blank">![CRun Release Page](https://img.shields.io/badge/CRun-Release%20Page-brightgreen?style=for-the-badge "Download")</a>
-  - Download **CRun-setup.exe**
-  - Run **CRun-setup.exe** and follow the setup wizard to complete the installation.
+   - Click the badge below to open the latest release page:
+   - <a href="https://github.com/dahyallam/crun-tool/releases/latest" target="_blank">![CRun Release Page](https://img.shields.io/badge/CRun-Release%20Page-brightgreen?style=for-the-badge "Download")</a>
+   - Download **CRun-setup.exe**
+   - Run **CRun-setup.exe** and follow the setup wizard to complete the installation.
 
 2. Verify Installation
-- Open Command Prompt and run:
-- `crun --version`
-
-- If installed correctly, the current **CRun** version will be displayed.
+   - Open **Command Prompt** and run:
+   ```
+     crun --version
+   ```
+   - If installed correctly, the current **CRun** version will be displayed.
 
 ## 🛠 Command Reference
 | Option                        | Description                                                      |
@@ -72,12 +72,26 @@ Getting started with **CRun** is easy. Follow the steps below:
 | `crun --run --args arg1 arg2`               | Run the built program with arguments.      |
 | `crun --clean`                              | Remove build files.                        |
 
+---
+
+
+### ⚙️ Prerequisites
+- MinGW-w64 (GCC) compiler is required to build C/C++ projects.
+- **CRun** can automatically install MinGW if it is not detected.
+- To install open **Command Prompt** and run:
+    ```bash
+    crun --install
+    ```
+
+---
+
 ## 💡 Usage
+
 > **Important**: Before doing anything, open the Command Prompt or terminal and navigate to the folder where you want to create your new project in.
 >
 >> **All CRun commands must be run from the project root** (the folder containing src and include).
 
-### 1. Navigate to the folder where you want to create your project in
+### 1. Open Command Prompt and navigate to the folder where you want to create your project in
 Example: Navigating to the `DEV` folder on my machine.
 ```bat
 cd /d C:\DEV
