@@ -5,7 +5,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/OS-Windows-magenta?style=plastc" alt="OS Badge">
-  <img src="https://img.shields.io/badge/Version-1.0-blue?style=plastc" alt="Version Badge" />
+  <img src="https://img.shields.io/badge/Version-1.1-blue?style=plastc" alt="Version Badge" />
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=plastc" alt="License Badge" />
 </p>
 
